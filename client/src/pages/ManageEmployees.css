@@ -1,0 +1,32 @@
+/* ManageEmployees.css */
+.manage-employees-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabs button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.tabs button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #fafafa;
+}

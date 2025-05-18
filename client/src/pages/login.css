@@ -1,0 +1,97 @@
+/* login.css */
+
+
+/* GLOBAL STYLES (safe and flexible) */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  min-height: 100vh;      /* 👈 instead of fixed height */
+  display: block;         /* 👈 don't use flex here */
+}
+
+/* OPTIONAL: If you still want all pages centered, use a wrapper */
+/* This centers the login container */
+.centered-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: white;
+  padding: 40px 35px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.role-buttons button {
+  flex: 1;
+  padding: 10px 0;
+  margin: 0 5px;
+  border: 2px solid #ccc;
+  background: #f9f9f9;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.role-buttons button.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.role-buttons button:hover:not(.active) {
+  background: #e0e0e0;
+}
+
+.login-form button[type='submit'] {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button[type='submit']:hover {
+  background: #0056b3;
+}

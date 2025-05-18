@@ -1,0 +1,64 @@
+.hr-dashboard {
+  padding: 30px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.hr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hr-header h1 {
+  margin: 0;
+}
+
+.hr-header button {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hr-header button:hover {
+  background-color: #e2e6ea;
+}
+
+.hr-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hr-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  flex: 1 1 30%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.hr-card:hover {
+  transform: translateY(-5px);
+}
+
+.hr-card h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.hr-card p {
+  color: #555;
+}

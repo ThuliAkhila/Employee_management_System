@@ -1,0 +1,42 @@
+/* DeleteEmployee.css */
+.delete-employee-container {
+  padding: 1.5rem;
+  font-family: Arial, sans-serif;
+  background-color: #fff0f0;
+  border-radius: 10px;
+}
+
+.delete-employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 400px;
+  margin: auto;
+}
+
+.delete-employee-form h2 {
+  text-align: center;
+  color: #b71c1c;
+}
+
+.delete-employee-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.delete-employee-form button {
+  background-color: #e53935;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-employee-form button:hover {
+  background-color: #c62828;
+}

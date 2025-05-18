@@ -1,0 +1,64 @@
+.hr-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.leave-list {
+  list-style: none;
+  padding: 0;
+}
+
+.leave-item {
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status.approved {
+  color: green;
+}
+
+.status.rejected {
+  color: red;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.action-buttons {
+  margin-top: 1rem;
+}
+
+.approve {
+  background-color: green;
+  color: white;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.reject {
+  background-color: red;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+}

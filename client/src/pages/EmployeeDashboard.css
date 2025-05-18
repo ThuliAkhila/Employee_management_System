@@ -1,0 +1,163 @@
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button.active {
+  background-color: #004085;
+}
+
+.logout {
+  background-color: #dc3545;
+  margin-right: 0;
+}
+
+.logout:hover {
+  background-color: #a71d2a;
+}
+
+.profile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.leaveSection {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.leaveButtons {
+  margin-bottom: 20px;
+}
+
+.leaveForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.textarea {
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  min-height: 70px;
+  margin-top: 5px;
+  resize: vertical;
+}
+
+.submitButton {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+  width: 150px;
+}
+
+.submitButton:hover {
+  background-color: #1e7e34;
+}
+
+.leaveStatusList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.leaveStatusList li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.status {
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.status.approved {
+  background-color: #28a745;
+}
+
+.status.pending {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.status.rejected {
+  background-color: #dc3545;
+}
+
+.loading, .error {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+}
+
+.error {
+  color: red;
+}
+
+.leaveStatusList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leaveStatusItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 12px;
+  background-color: #fefefe;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
